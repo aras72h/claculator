@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <form">
+    <div class="center">
+        <div id="output"></div>
         <input type="number" id="input0">
         <input type="text" id="operator">
         <input type="number" id="input1">
         <input type="button" value="Calculate" onclick="calculate()">
-        </form>
+    </div>
 
-        <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

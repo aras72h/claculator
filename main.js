@@ -5,15 +5,15 @@ function calculate() {
     const operator = document.getElementById("operator").value;
     // Handle different math operations
     if (operator == '+') {
-        console.log(x + y);
+        document.getElementById("output").innerHTML = `${x + y}`;
     }
     else if (operator == '-') {
-        console.log(x - y);
+        document.getElementById("output").innerHTML = `${x - y}`;
     }
     else if (operator == '*') {
-        console.log(x * y);
+        document.getElementById("output").innerHTML = `${x * y}`;
     }
     else if (operator == '/') {
-        console.log(x / y);
+        document.getElementById("output").innerHTML = `${x / y}`;
     }
 }
